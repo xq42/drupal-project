@@ -1,5 +1,5 @@
 {
-    "name": "drupal-composer/drupal-project",
+    "name": "xq42/drupal-project",
     "description": "Project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0+",
@@ -10,6 +10,10 @@
         }
     ],
     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/xq42/drupal-project"
+        }
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
